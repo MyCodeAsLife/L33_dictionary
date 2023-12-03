@@ -25,8 +25,9 @@ namespace L33_dictionary
 
             while (isOpen)
             {
-                Console.Write($"Чтобы показать весь план введите: {CommandPlan}\nЧтобы просмотреть конкретный участок, " +
-                              $"введите его наименование.\nЧтобы выйти введите: {CommandExit}\n\nЧто вам показать?: ");
+                Console.Write($"План на ближайшие 10 лет.\n\nЧтобы показать весь план введите: {CommandPlan}\n" +
+                              $"Чтобы выйти введите: {CommandExit}\nЧтобы просмотреть конкретный участок, " +
+                              $"введите его наименование.\n\nЧто вам показать?: ");
                 string userInput = Console.ReadLine();
                 Console.Clear();
 
